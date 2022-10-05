@@ -1,0 +1,118 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 25px;
+    padding-bottom: 85px;
+    background-color: #1F2937;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    
+}
+
+p {
+    display: flex;
+    gap: 30px;
+    padding-right: 60px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 450;   
+}
+
+.left-header {
+    padding-left: 60px;
+    display: flex;
+    align-items: center;
+    font-weight: 1000;
+    color: white;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.hero-left {
+    display: flex;
+    align-self: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.hero-button {
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 7px 25px 7px 25px;
+    width: fit-content;
+}
+
+.hero-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb5f ;
+    width: 600px;
+    height: 200px;
+}
+
+.container-random {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 60px;
+    padding-bottom: 75px;
+
+}
+
+h2 {
+ padding-bottom: 35px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    }
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap ;
+    width: 200px;
+    gap: 5px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+}
+
+.box1 {
+    display: flex;
+    flex-shrink: 0;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: #3882F6 solid ;
+}
+
+
+
+
