@@ -115,4 +115,29 @@ h2 {
 
 
 
+.container-quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb5f;
+    height: 500px;
+    flex:1;
+}
 
+.container-quote p {
+    display: flex;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+
+}
+
+h4 {
+    text-align: end;
+    padding-right: 200px;
+    padding-bottom: 100px;
+   
+}
